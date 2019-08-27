@@ -259,6 +259,15 @@
       "body": [["LAANE", "A260-|S280"], "ALWYS", ["FLOWZ", "A190-|S280"], ["CEDES", "A120-|S250"], ["FRELY", "A80|S240"], ["ARCHI", "A70|S230"]],
       "draw": [["DYAMD*","LAANE","ALWYS","FLOWZ","CEDES","FRELY","ARCHI"]]
     },
+	"PIRAT2": {
+      "icao": "PIRAT2",
+      "name": "Pirate Two",
+      "transitions": {
+        "SUPER": [["SUPER", "A270+"]]
+      },
+      "body": [["PASIF", "A190-|S280"], ["PIRAT", "A150-|S280"], ["BRINY", "A120-|S250"], "OSI"],
+      "draw": [["PASIF","PIRAT","BRINY","OSI"]]
+    },
     "YOSEM3": {
       "icao": "YOSEM3",
       "name": "Yosem Three",

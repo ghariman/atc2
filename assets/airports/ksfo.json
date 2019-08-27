@@ -226,7 +226,7 @@
 		"BAART": ["BAART"],
 		"ALCOA": ["ALCOA"]
       },
-      "draw": [["GNNRR","STINS"],["STINS","AMAKR*"],["GNNRR","BAART*"],["GNNRR","ALCOA*"]
+      "draw": [["GNNRR","STINS"],["STINS","AMAKR*"],["GNNRR","BAART*"],["GNNRR","ALCOA*"]]
     }
   },
   "stars": {

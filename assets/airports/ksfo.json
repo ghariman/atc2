@@ -300,7 +300,25 @@
   "arrivals": [
     {
       "type": "random",
-      "route":   "QUINN.BDEGA2.KSFO",
+      "route":   "DEEAN.BDEGA2.KSFO",
+      "frequency": 10,
+      "altitude":  24000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "MSCAT.BDEGA2.KSFO",
       "frequency": 10,
       "altitude":  24000,
       "speed":    280,

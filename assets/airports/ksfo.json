@@ -326,7 +326,7 @@
     {
       "type": "random",
       "route":   "DEEAN.BDEGA2.KSFO",
-      "frequency": 10,
+      "frequency": 5,
       "altitude":  24000,
       "speed":    280,
       "airlines":  [
@@ -398,7 +398,7 @@
 	{
       "type": "random",
       "route":   "HUNTS.PIRAT2.KSFO",
-      "frequency": 10,
+      "frequency": 5,
       "altitude":  27000,
       "speed":    280,
       "airlines":  [

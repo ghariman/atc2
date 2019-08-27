@@ -267,8 +267,8 @@
         "CINNY": [["CINNY", "A250+"]]
 		"PAINT": [["PAINT", "A200+"]]
       },
-      "body": [["PIRAT", "A150+|S250"], ["BRINY", "A120-|S250"], ["ARGGG", "A80-|S230"]],
-      "draw": [["PIRAT","BRINY","ARGGG"]]
+      "body": [["PIRAT", "A150+|S250"], ["BRINY", "A120-|S250"], ["ARGGG", "A80|S230"]],
+      "draw": [["PIRAT*","BRINY","ARGGG"]]
     }
   },
   "departures": {

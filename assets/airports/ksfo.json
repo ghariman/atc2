@@ -298,9 +298,10 @@
       ["kal/long", 2],
       ["vir", 2]
     ],
-    "destinations": "",
+	"destinations": [
+      "MOLEN7", "OFFSH9", "PORTE7", "QUIET7"
+    ],
     "type": "random",
-	"route": "KSFO.QUIET7.ENI"
     "offset": 0,
     "frequency": 38
   },

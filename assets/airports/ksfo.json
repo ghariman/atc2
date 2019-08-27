@@ -224,7 +224,7 @@
         "AMAKR": ["STINS","AMAKR"],
 		"BAART": ["BAART"]
       },
-      "draw": [["GNNRR","STINS"],["STINS","AMAKR"],["GNNRR","BAART"]]
+      "draw": [["GNNRR","STINS"],["STINS","AMAKR*"],["GNNRR","BAART*"]]
     },
     "MOLEN7": {
       "icao": "MOLEN7",

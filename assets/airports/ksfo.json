@@ -225,8 +225,7 @@
 		"BAART": ["BAART"]
       },
       "draw": [["GNNRR","STINS"],["STINS","AMAKR"],["GNNRR","BAART"]]
-    }
-  },
+    },
     "MOLEN7": {
       "icao": "MOLEN7",
       "name": "Molen Seven",

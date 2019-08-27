@@ -30,6 +30,7 @@
     "ALWYS": ["N37d38.01m0", "W120d57.57m0"],
     "ANJEE": ["N36d44.78", "W121d57.89"],
     "ARCHI": ["N37.4908333", "W121.8755"],
+	"ARGGG": ["N37d23m32.72", "W122d16m53.87"],
     "AVE"  : ["N35d38m49.11", "W119d58m42.98"],
     "AXMUL": ["N37.571517", "W122.257208"],
     "BDEGA": ["N37d49.38m0", "W122d35.53m0"],
@@ -37,6 +38,7 @@
     "BERKS": ["N37.860861", "W122.211678"],
     "BGGLO": ["N38d13.48m0", "W122d46.05m0"],
     "BOLDR": ["N37.170833", "W122.0761667"],
+	"BRINY": ["N37d18m17.14", "W122d39m42.96"],
     "BRIXX": ["N37d37.07", "W122d22.47"],
     "BSR"  : ["N36.181333", "W121.642167"],
     "BSR"  : ["N36.1813333", "W121.6421667"],
@@ -258,14 +260,15 @@
       "body": [["LAANE", "A260-|S280"], "ALWYS", ["FLOWZ", "A190-|S280"], ["CEDES", "A120-|S250"], ["FRELY", "A80|S240"], ["ARCHI", "A70|S230"]],
       "draw": [["DYAMD*","LAANE","ALWYS","FLOWZ","CEDES","FRELY","ARCHI"]]
     },
-    "YOSEM3": {
-      "icao": "YOSEM3",
-      "name": "Yosem Three",
+    "PIRAT2": {
+      "icao": "PIRAT2",
+      "name": "Pirate Two",
       "transitions": {
-        "YOSEM": ["YOSEM"]
+        "CINNY": [["CINNY", "A250+"]]
+		"PAINT": [["PAINT", "A200+"]]
       },
-      "body": [["SNORA", "A270+|S280"], ["FRIGG", "A190-"], ["SOOIE", "A130-|S250"], ["FAITH", "A80"]],
-      "draw": [["YOSEM*","SNORA","FRIGG","SOOIE","FAITH"]]
+      "body": [["PIRAT", "A150+|S250"], ["BRINY", "A120-|S250"], ["ARGGG", "A80-|S230"]],
+      "draw": [["PIRAT","BRINY","ARGGG"]]
     }
   },
   "departures": {

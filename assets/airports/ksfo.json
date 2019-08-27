@@ -212,6 +212,21 @@
       },
       "draw": [["SASLY","REBAS"], ["REBAS","SASSU"], ["SASSU","ENI*"], ["SASSU","SAWNA"], ["SAWNA","RBL*"], ["SAWNA","CIC*"], ["REBAS","SAC*"], ["REBAS","LIN*"]]
     },
+	"GNNRR2": {
+      "icao": "GNNRR2",
+      "name": "Goner Two",
+      "rwy": {
+        "28L": [["GNNRR", "A30+"]],
+        "28R": [["GNNRR", "A30+"]]
+      },
+      "body": [],
+      "transitions": {
+        "AMAKR": ["STINS","AMAKR"],
+		"BAART": ["BAART"]
+      },
+      "draw": [["GNNRR","STINS"],["STINS","AMAKR"],["GNNRR","BAART"]]
+    }
+  },
     "MOLEN7": {
       "icao": "MOLEN7",
       "name": "Molen Seven",

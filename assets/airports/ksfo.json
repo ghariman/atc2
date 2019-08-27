@@ -225,21 +225,6 @@
 		"BAART": ["BAART"]
       },
       "draw": [["GNNRR","STINS"],["STINS","AMAKR*"],["GNNRR","BAART*"]]
-    },
-    "MOLEN7": {
-      "icao": "MOLEN7",
-      "name": "Molen Seven",
-      "rwy": {
-        "10L": [["SIPLY", "A25+"], "_SIPLY233-STINS144", ["STINS", "A220-"]],
-        "10R": [["SIPLY", "A25+"], "_SIPLY233-STINS144", ["STINS", "A220-"]],
-        "28L": [["WESLA", "A18+"], ["STINS", "A220-"]],
-        "28R": [["WESLA", "A18+"], ["STINS", "A220-"]]
-      },
-      "body": ["MOLEN"],
-      "transitions": {
-        "ENI": ["ENI"]
-      },
-      "draw": [["SIPLY","_SIPLY233-STINS144","STINS"], ["WESLA","STINS","MOLEN"], ["MOLEN","ENI*"]]
     }
   },
   "stars": {
@@ -316,7 +301,7 @@
       ["vir", 2]
     ],
 	"destinations": [
-      "MOLEN7", "OFFSH9", "PORTE7", "QUIET7"
+      "GNNRR2", "OFFSH9", "PORTE7", "QUIET7"
     ],
     "type": "random",
     "offset": 0,

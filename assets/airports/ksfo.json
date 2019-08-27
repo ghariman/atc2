@@ -263,7 +263,8 @@
       "icao": "PIRAT2",
       "name": "Pirate Two",
       "transitions": {
-        "SUPER": [["SUPER", "A270+"]]
+        "SUPER": [["SUPER", "A210+"]],
+		"HUNTS": [["HUNTS", "A210+"]]
       },
       "body": [["PASIF", "A190-|S280"], ["PIRAT", "A150-|S280"], ["BRINY", "A120-|S250"], "OSI"],
       "draw": [["PASIF","PIRAT","BRINY","OSI"]]
@@ -379,9 +380,27 @@
         ["fdx", 1]
       ]
     },
+	{
+      "type": "random",
+      "route":   "HUNTS.PIRAT2.KSFO",
+      "frequency": 10,
+      "altitude":  27000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
     {
       "type": "random",
-      "route":   "YOSEM.YOSEM3.KSFO",
+      "route":   "SUPER.PIRAT2.KSFO",
       "frequency": 10,
       "altitude":  34000,
       "speed":    280,

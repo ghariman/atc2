@@ -257,16 +257,6 @@
       "body": [["LAANE", "A260-|S280"], "ALWYS", ["FLOWZ", "A190-|S280"], ["CEDES", "A120-|S250"], ["FRELY", "A80|S240"], ["ARCHI", "A70|S230"]],
       "draw": [["DYAMD*","LAANE","ALWYS","FLOWZ","CEDES","FRELY","ARCHI"]]
     },
-    "PYE1": {
-      "icao": "PYE1",
-      "name": "Point Reyes One",
-      "transitions": {
-        "ENI": ["ENI"],
-        "MXW": ["MXW"]
-      },
-      "body": [["PYE", "A240|S280"], ["STINS", "A230|S250"], ["HADLY", "A100-|S230"], ["OSI", "A30|S210"]],
-      "draw": [["ENI*","PYE"], ["MXW*","PYE"], ["PYE","STINS","HADLY","OSI"]]
-    },
     "YOSEM3": {
       "icao": "YOSEM3",
       "name": "Yosem Three",
@@ -308,7 +298,25 @@
   "arrivals": [
     {
       "type": "random",
-      "route":   "QUINN.BDEGA2.KSFO",
+      "route":   "DEEAN.BDEGA2.KSFO",
+      "frequency": 10,
+      "altitude":  24000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "MSCAT.BDEGA2.KSFO",
       "frequency": 10,
       "altitude":  24000,
       "speed":    280,
@@ -347,42 +355,6 @@
       "route":   "DYAMD.DYAMD2.KSFO",
       "frequency": 10,
       "altitude":  27000,
-      "speed":    280,
-      "airlines":  [
-        ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
-        ["dal", 5],
-        ["dal/long", 2],
-        ["aal", 5],
-        ["aal/long", 2],
-        ["asa", 1],
-        ["fdx", 1]
-      ]
-    },
-    {
-      "type": "random",
-      "route":   "MXW.PYE1.KSFO",
-      "frequency": 10,
-      "altitude":  34000,
-      "speed":    320,
-      "airlines":  [
-        ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
-        ["dal", 5],
-        ["dal/long", 2],
-        ["aal", 5],
-        ["aal/long", 2],
-        ["asa", 1],
-        ["fdx", 1]
-      ]
-    },
-    {
-      "type": "random",
-      "route":   "YOSEM.YOSEM3.KSFO",
-      "frequency": 10,
-      "altitude":  34000,
       "speed":    280,
       "airlines":  [
         ["ual", 5],

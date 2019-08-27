@@ -313,7 +313,7 @@
     {
       "type": "random",
       "route":   "DEEAN.BDEGA2.KSFO",
-      "frequency": 5,
+      "frequency": 2,
       "altitude":  24000,
       "speed":    280,
       "airlines":  [
@@ -331,7 +331,7 @@
 	{
       "type": "random",
       "route":   "MSCAT.BDEGA2.KSFO",
-      "frequency": 10,
+      "frequency": 8,
       "altitude":  24000,
       "speed":    280,
       "airlines":  [
@@ -349,7 +349,7 @@
     {
       "type": "random",
       "route":   "BSR.BSR2.KSFO",
-      "frequency": 10,
+      "frequency": 8,
       "altitude":  18000,
       "speed":    280,
       "airlines":  [

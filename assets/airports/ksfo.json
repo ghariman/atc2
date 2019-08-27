@@ -28,9 +28,8 @@
     "_SIPLY233-STINS144": ["N37.468500", "W122.575333"],
     "_SKUNK155020": ["N36d40.83m0", "W121d57.04m0"],
     "ALWYS": ["N37d38.01m0", "W120d57.57m0"],
-    "ANJEE": ["N36d44.78", "W121d57.89"],
+    "ANJEE": ["N36d44.78m0", "W121d57.89m0"],
     "ARCHI": ["N37.4908333", "W121.8755"],
-	"ARGGG": ["N37d23m32.72", "W122d16m53.87"],
     "AVE"  : ["N35d38m49.11", "W119d58m42.98"],
     "AXMUL": ["N37.571517", "W122.257208"],
     "BDEGA": ["N37d49.38m0", "W122d35.53m0"],
@@ -38,17 +37,15 @@
     "BERKS": ["N37.860861", "W122.211678"],
     "BGGLO": ["N38d13.48m0", "W122d46.05m0"],
     "BOLDR": ["N37.170833", "W122.0761667"],
-	"BRINY": ["N37d18m17.14", "W122d39m42.96"],
-    "BRIXX": ["N37d37.07", "W122d22.47"],
+    "BRIXX": ["N37d37.07m0", "W122d22.47m0"],
     "BSR"  : ["N36.181333", "W121.642167"],
     "BSR"  : ["N36.1813333", "W121.6421667"],
     "BYRON": ["N37d49.37m0", "W121d28.16m0"],
-    "CARME": ["N36d27.31", "W121d52.78"],
+    "CARME": ["N36d27.31m0", "W121d52.78m0"],
     "CEDES": ["N37.55083", "W121.6246667"],
     "CEPIN": ["N37.536",   "W122.17283" ],
     "CIC"  : ["N39.789825", "W121.847195"],
-	"CINNY": ["N36d10m54", "W124d45m36"],
-    "CORKK": ["N37d44.02", "W122d29.85"],
+    "CORKK": ["N37d44.02m0", "W122d29.85m0"],
     "CYPRS": ["N36.422333", "W122.432167"],
     "CZQ"  : ["N36d53m3.56", "W119d48m54.48"],
     "DAISY": ["N34.259500", "W120.131333"],
@@ -89,7 +86,7 @@
     "NEPIC": ["N37.585894", "W122.296883"],
     "NORMM": ["N37.720208", "W122.613172"],
     "OSI"  : ["N37.3925", "W122.28133333"],
-    "PAINT": ["N38d0", "W125d30"],
+    "OSI":   ["N37.3925", "W122.28133333"],
     "PIRAT": ["N37d15m27.54", "W122d51m48.07"],
     "PONKE": ["N37.458817", "W121.996053"],
     "PORTE": ["N37.489786", "W122.474578"],
@@ -260,15 +257,24 @@
       "body": [["LAANE", "A260-|S280"], "ALWYS", ["FLOWZ", "A190-|S280"], ["CEDES", "A120-|S250"], ["FRELY", "A80|S240"], ["ARCHI", "A70|S230"]],
       "draw": [["DYAMD*","LAANE","ALWYS","FLOWZ","CEDES","FRELY","ARCHI"]]
     },
-    "PIRAT2": {
-      "icao": "PIRAT2",
-      "name": "Pirate Two",
+    "PYE1": {
+      "icao": "PYE1",
+      "name": "Point Reyes One",
       "transitions": {
-        "CINNY": [["CINNY", "A250+"]]
-		"PAINT": [["PAINT", "A200+"]]
+        "ENI": ["ENI"],
+        "MXW": ["MXW"]
       },
-      "body": [["PIRAT", "A150+|S250"], ["BRINY", "A120-|S250"], ["ARGGG", "A80|S230"]],
-      "draw": [["PIRAT*","BRINY","ARGGG"]]
+      "body": [["PYE", "A240|S280"], ["STINS", "A230|S250"], ["HADLY", "A100-|S230"], ["OSI", "A30|S210"]],
+      "draw": [["ENI*","PYE"], ["MXW*","PYE"], ["PYE","STINS","HADLY","OSI"]]
+    },
+    "YOSEM3": {
+      "icao": "YOSEM3",
+      "name": "Yosem Three",
+      "transitions": {
+        "YOSEM": ["YOSEM"]
+      },
+      "body": [["SNORA", "A270+|S280"], ["FRIGG", "A190-"], ["SOOIE", "A130-|S250"], ["FAITH", "A80"]],
+      "draw": [["YOSEM*","SNORA","FRIGG","SOOIE","FAITH"]]
     }
   },
   "departures": {
@@ -302,25 +308,7 @@
   "arrivals": [
     {
       "type": "random",
-      "route":   "DEEAN.BDEGA2.KSFO",
-      "frequency": 10,
-      "altitude":  24000,
-      "speed":    280,
-      "airlines":  [
-        ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
-        ["dal", 5],
-        ["dal/long", 2],
-        ["aal", 5],
-        ["aal/long", 2],
-        ["asa", 1],
-        ["fdx", 1]
-      ]
-    },
-	{
-      "type": "random",
-      "route":   "MSCAT.BDEGA2.KSFO",
+      "route":   "QUINN.BDEGA2.KSFO",
       "frequency": 10,
       "altitude":  24000,
       "speed":    280,
@@ -359,6 +347,42 @@
       "route":   "DYAMD.DYAMD2.KSFO",
       "frequency": 10,
       "altitude":  27000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+    {
+      "type": "random",
+      "route":   "MXW.PYE1.KSFO",
+      "frequency": 10,
+      "altitude":  34000,
+      "speed":    320,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+    {
+      "type": "random",
+      "route":   "YOSEM.YOSEM3.KSFO",
+      "frequency": 10,
+      "altitude":  34000,
       "speed":    280,
       "airlines":  [
         ["ual", 5],

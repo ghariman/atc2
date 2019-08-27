@@ -354,24 +354,6 @@
     },
     {
       "type": "random",
-      "route":   "MXW.PYE1.KSFO",
-      "frequency": 10,
-      "altitude":  34000,
-      "speed":    320,
-      "airlines":  [
-        ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
-        ["dal", 5],
-        ["dal/long", 2],
-        ["aal", 5],
-        ["aal/long", 2],
-        ["asa", 1],
-        ["fdx", 1]
-      ]
-    },
-    {
-      "type": "random",
       "route":   "YOSEM.YOSEM3.KSFO",
       "frequency": 10,
       "altitude":  34000,

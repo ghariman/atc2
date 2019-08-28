@@ -405,7 +405,7 @@
       "type": "random",
       "route":   "SERFR.SERFR3.KSFO",
       "frequency": 10,
-      "altitude":  18000,
+      "altitude":  20000,
       "speed":    280,
       "airlines":  [
         ["ual", 5],
@@ -441,7 +441,7 @@
       "type": "random",
       "route":   "HUNTS.PIRAT2.KSFO",
       "frequency": 2,
-      "altitude":  27000,
+      "altitude":  21000,
       "speed":    280,
       "airlines":  [
         ["ual", 5],

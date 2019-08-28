@@ -290,7 +290,7 @@
   {
     "type": "random",
     "offset": 0,
-    "frequency": 10,
+    "frequency": 38,
 	"airlines": [
       ["ual", 10],
       ["aal", 8],

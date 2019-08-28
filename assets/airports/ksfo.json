@@ -286,7 +286,7 @@
       "draw": [["YOSEM*","SNORA","FRIGG","SOOIE","FAITH"]]
     }
   },
-  "departures":
+  "departures": [
   {
     "type": "random",
     "offset": 0,
@@ -314,7 +314,8 @@
 	"destinations": [
       "GNNRR2", "OFFSH9", "PORTE7", "QUIET7"
     ] 
-  },
+   }
+  ]
   "arrivals": [
     {
       "type": "random",

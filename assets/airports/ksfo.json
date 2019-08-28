@@ -280,6 +280,15 @@
       "body": [["PASIF", "A190-|S280"], ["PIRAT", "A150-|S280"], ["BRINY", "A120-|S250"], "OSI"],
       "draw": [["PASIF","PIRAT","BRINY","OSI"]]
     },
+	"SERFR3": {
+      "icao": "SERFR3",
+      "name": "Surfer Three",
+      "transitions": {
+        "SERFR": ["SERFR"]
+      },
+      "body": ["SERFR", ["NRRLI", "A200-|S280"], ["WWAVS", "A190|S280"], ["EPICK", "A150|S280"],["NARWL", "A80|S240"],["EDDYY", "60|S220"]],
+      "draw": [["SERFR*","NRRLI","WWAVS","EPICK","NARWL","EDDYY"]]
+    },
     "YOSEM3": {
       "icao": "YOSEM3",
       "name": "Yosem Three",

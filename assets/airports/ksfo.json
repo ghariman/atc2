@@ -286,8 +286,12 @@
       "draw": [["YOSEM*","SNORA","FRIGG","SOOIE","FAITH"]]
     }
   },
-  "departures": {
-    "airlines": [
+  "departures":
+  {
+    "type": "random",
+    "offset": 0,
+    "frequency": 38,
+	"airlines": [
       ["ual", 10],
       ["aal", 8],
       ["dal", 6],
@@ -309,10 +313,7 @@
     ],
 	"destinations": [
       "GNNRR2", "OFFSH9", "PORTE7", "QUIET7"
-    ],
-    "type": "random",
-    "offset": 0,
-    "frequency": 38
+    ] 
   },
   "arrivals": [
     {

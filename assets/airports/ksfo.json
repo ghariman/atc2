@@ -368,7 +368,7 @@
     {
       "type": "random",
       "route":   "SERFR.SERFR3.KSFO",
-      "frequency": 8,
+      "frequency": 10,
       "altitude":  18000,
       "speed":    280,
       "airlines":  [
@@ -386,7 +386,7 @@
     {
       "type": "random",
       "route":   "DYAMD.DYAMD2.KSFO",
-      "frequency": 8,
+      "frequency": 10,
       "altitude":  27000,
       "speed":    280,
       "airlines":  [

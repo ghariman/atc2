@@ -312,35 +312,7 @@
       ["vir", 2]
     ],
 	"destinations": [
-      "PORTE7", "QUIET7"
-    ] 
-   },
-   {
-    "type": "random",
-    "offset": 0,
-    "frequency": 10,
-	"airlines": [
-      ["ual", 10],
-      ["aal", 8],
-      ["dal", 6],
-      ["ual/long", 5],
-      ["aal/long", 2],
-      ["dal/long", 2],
-      ["swa", 5],
-      ["asa", 3],
-      ["aca", 2],
-      ["cpa", 2],
-      ["baw/long", 2],
-      ["ups", 1],
-      ["fdx", 1],
-      ["klm/long", 2],
-      ["afr/long", 2],
-      ["uae", 4],
-      ["kal/long", 2],
-      ["vir", 2]
-    ],
-	"destinations": [
-      "GNNRR2", "OFFSH9"
+      "GNNRR2", "OFFSH9", "PORTE7", "QUIET7"
     ] 
    }
   ]

@@ -506,9 +506,10 @@
       "transitions": {
         "AMAKR": ["STINS","AMAKR"],
 		"BAART": ["BAART"],
+		"ALANN": ["ALANN"],
 		"ALCOA": ["ALCOA"]
       },
-      "draw": [["GNNRR","STINS"],["STINS","AMAKR*"],["GNNRR","BAART*"],["GNNRR","ALCOA*"]]
+      "draw": [["GNNRR","STINS"],["STINS","AMAKR*"],["GNNRR","BAART*"],["GNNRR","ALCOA*"],["GNNRR","ALANN*"]]
     }
   },
   "stars": {

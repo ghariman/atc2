@@ -510,7 +510,7 @@
         "MSCAT": [["MSCAT", "A240+|S280"], ["BGGLO", "A190+|S280"]],
         "GEEHH": [["GEEHH", "A240+|S280"], ["BGGLO", "A190+|S280"]]
       },
-      "body": [["LOZIT", "A160-|S280"], ["BDEGA", "A130-"], ["CORKK", "A110|S250"], "BRIXX"],
+      "body": [["LOZIT", "A160-|S280"], ["BDEGA", "A130-"], ["CORKK", "A110|S250"], "BRIXX","#140"],
       "draw": [["DEEAN*","LOZIT"], ["QUINN*","BGGLO","LOZIT"], ["JONNE*","BGGLO","LOZIT"], ["MSCAT*","BGGLO","LOZIT"], ["GEEHH*","BGGLO","LOZIT"], ["LOZIT","BDEGA","CORKK","BRIXX"]]
     },
     "BSR2": {

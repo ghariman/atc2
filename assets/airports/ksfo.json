@@ -581,7 +581,7 @@
       ["vir", 2]
     ],
     "destinations": [
-      "MOLEN7", "OFFSH9", "PORTE7", "QUIET7"
+      "MOLEN7", "OFFSH9", "PORTE7"
     ],
     "type": "random",
     "offset": 0,

@@ -472,7 +472,7 @@
 		  "LOSHN": ["KAYEK", "LOSHN"],
           "NTELL": ["UTOOB", "NTELL"]
       },
-      "draw": [["SSTIK","PORTE"],["PORTE","FFOIL", "LIBBO","YYUNG*"], ["PORTE","KTINA", "CISKO*"], ["PORTE","SUSEY", "EBAYE*"], ["PORTE","KAYEK", "LOSHN*"], ["PORTE","UTOOB", "NTELL*"]]
+      "draw": [["PORTE","FFOIL","LIBBO","YYUNG*"], ["PORTE","KTINA", "CISKO*"], ["PORTE","SUSEY", "EBAYE*"], ["PORTE","KAYEK", "LOSHN*"], ["PORTE","UTOOB", "NTELL*"]]
     },
     "TRUKN2": {
       "icao": "TRUKN2",

@@ -462,24 +462,25 @@
       },
       "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
     },
-    "QUIET7": {
-      "icao": "QUIET7",
-      "name": "Quiet Seven",
+    "TRUKN2": {
+      "icao": "TRUKN2",
+      "name": "Truckin Two",
       "rwy": {
-        "1L" : ["SASLY", "REBAS"],
-        "1R" : ["SASLY", "REBAS"],
-        "28L": ["REBAS"],
-        "28R": ["REBAS"]
+        "1L" : ["TYDYE", "TRUKN"],
+        "1R" : ["TYDYE", "TRUKN"],
+        "28L": ["TRUKN"],
+        "28R": ["TRUKN"]
       },
       "body": [],
       "transitions": {
-        "ENI": ["SASSU", "ENI"],
-        "RBL": ["SASSU", "SAWNA", "RBL"],
-        "CIC": ["SASSU", "SAWNA", "CIC"],
-        "SAC": ["SAC"],
-        "LIN": ["LIN"]
+        "ORRCA": ["HYPEE", "ORRCA"],
+        "MOGEE": ["HYPEE", "MOGEE"],
+        "TIPRE": ["COSMC", "TIPRE"],
+		"SYRAH": ["COSMC", "SYRAH"],
+        "DEDHD": ["DEDHD"],
+        "GRTFL": ["GRTFL"]
       },
-      "draw": [["SASLY","REBAS"], ["REBAS","SASSU"], ["SASSU","ENI*"], ["SASSU","SAWNA"], ["SAWNA","RBL*"], ["SAWNA","CIC*"], ["REBAS","SAC*"], ["REBAS","LIN*"]]
+      "draw": [["TYDYE", "TRUKN"], ["TRUKN","GRTFL*"], ["TRUKN","GRTFL*"], ["TRUKN","HYPEE","ORRCA*"], ["TRUKN","HYPEE","MOGEE*"], ["TRUKN","COSMC","TIPRE*"], ["TRUKN","COSMC","SYRAH*"]]
     },
 	"GNNRR2": {
       "icao": "GNNRR2",

@@ -548,8 +548,8 @@
       "icao": "PIRAT2",
       "name": "Pirate Two",
       "transitions": {
-        "SUPER": [["SUPER", "A210-"]],
-		"HUNTS": [["HUNTS", "A210-"]]
+        "PAINT": [["PAINT", "A240-"],["SUPER", "A210-"]],
+		"CINNY": [["CINNY", "A270-"],["HUNTS", "A210-"]]
       },
       "body": [["PASIF", "A190-|S280"], ["PIRAT", "A150-|S280"], ["BRINY", "A120-|S250"], "OSI"],
       "draw": [["PASIF","PIRAT","BRINY","OSI"]]

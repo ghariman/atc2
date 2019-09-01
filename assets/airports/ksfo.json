@@ -296,14 +296,26 @@
       },
       "body": [],
       "transitions": {
-        "ORRCA": ["HYPEE", "ORRCA"],
         "MOGEE": ["HYPEE", "MOGEE"],
         "TIPRE": ["COSMC", "TIPRE"],
 		"SYRAH": ["COSMC", "SYRAH"],
-        "DEDHD": ["DEDHD"],
         "GRTFL": ["GRTFL"]
       },
       "draw": [["TYDYE", "TRUKN"], ["TRUKN","GRTFL*"], ["TRUKN","GRTFL*"], ["TRUKN","HYPEE","ORRCA*"], ["TRUKN","HYPEE","MOGEE*"], ["TRUKN","COSMC","TIPRE*"], ["TRUKN","COSMC","SYRAH*"]]
+    },
+	"SNTNA2": {
+      "icao": "SNTNA2",
+      "name": "Santana Two",
+      "rwy": {
+        "28L": [["KYNNG", "A30+"]],
+        "28R": [["KYNNG", "A30+"]]
+      },
+      "body": [["KRLOS", "A30+"],["SNTNA", "A30+"]],
+      "transitions": {
+        "ORRCA": ["ORRCA"],
+        "DEDHD": ["DEDHD"]
+      },
+      "draw": [["KYNNG", "KRLOS"], ["KRLOS","SNTNA"], ["SNTNA","ORRCA*"], ["SNTNA","DEDHD*"]]
     },
 	"GNNRR2": {
       "icao": "GNNRR2",

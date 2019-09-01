@@ -418,7 +418,7 @@
       ["vir", 2]
     ],
     "destinations": [
-      "TRUKN2", "OFFSH9", "GNNRR2", "SSTIK4", "SNTNA2"
+      "OFFSH9"
     ],
     "type": "random",
     "offset": 0,

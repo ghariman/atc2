@@ -392,6 +392,42 @@
 	{
       "type": "random",
       "route":   "DEEAN.BDEGA2.KSFO",
+      "frequency": 5,
+      "altitude":  20000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "PAINT.PIRAT2.KSFO",
+      "frequency": 5,
+      "altitude":  20000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "SERFR.SERFR3.KSFO",
       "frequency": 10,
       "altitude":  20000,
       "speed":    280,

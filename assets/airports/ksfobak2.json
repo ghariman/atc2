@@ -390,20 +390,94 @@
   },
   "arrivals": [
     {
-      "radial":   145,
-      "speed":    250,
-      "fixes":    ["SKUNK", "BOLDR", "MENLO"],
+      "type": "random",
+      "route":   "DEEAN.BDEGA2.KSFO",
+      "frequency": 2,
+      "altitude":  24000,
+      "speed":    280,
       "airlines":  [
-        ["ual", 4],
-        ["aal", 3],
-        ["dal", 2],
-        ["asa", 2],
-        ["swa", 5]
-      ],
-      "type": "wave",
-      "offset": 3,
-      "frequency": 8,
-      "altitude":  10000
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "MSCAT.BDEGA2.KSFO",
+      "frequency": 3,
+      "altitude":  24000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+    {
+      "type": "random",
+      "route":   "SERFR.SERFR3.KSFO",
+      "frequency": 10,
+      "altitude":  20000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+    {
+      "type": "random",
+      "route":   "DYAMD.DYAMD2.KSFO",
+      "frequency": 10,
+      "altitude":  27000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "HUNTS.PIRAT2.KSFO",
+      "frequency": 2,
+      "altitude":  21000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ]
     }
   ]
 }

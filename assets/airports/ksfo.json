@@ -318,7 +318,7 @@
       "transitions": {
         "BSR": ["BSR"]
       },
-      "body": ["CARME", "ANJEE", ["SKUNK", "A120-|S280"], ["BOLDR", "A100|S250"], "MENLO", "#330"],
+      "body": ["CARME", "ANJEE", ["SKUNK", "A120-|S280"], ["BOLDR", "A100|S250"], "MENLO"],
       "draw": [["BSR*","CARME","ANJEE","SKUNK","BOLDR","MENLO"]]
     },
     "DYAMD2": {

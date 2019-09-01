@@ -281,7 +281,7 @@
         "1L" : [["SSTIK", "A19+"]],
         "1R" : [["SSTIK", "A19+"]]
       },
-      "body": ["SENZY", ["PORTE", "A100-"]],
+      "body": [["PORTE", "A100-"]],
       "transitions": {
           "YYUNG": ["FFOIL","LIBBO","YYUNG"],
           "CISKO": ["KTINA", "CISKO"],

@@ -1963,7 +1963,7 @@ var Aircraft=Fiber.extend(function() {
     },
     runClimbViaSID: function() {
       if(this.fms.climbViaSID())
-      return ['ok', {log: "descend via the " + this.destination + " departure",
+      return ['ok', {log: "climb via the " + this.destination + " departure",
         say: "climb via the " + airport_get().sids[this.destination].name + " departure"}];
       else ui_log(true, this.getCallsign() + ", unable to climb via SID");
     },

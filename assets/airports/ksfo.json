@@ -390,6 +390,54 @@
   },
   "arrivals": [
     {
+      "radial":   60,
+      "heading":  170,
+      "speed":    250,
+      "fixes":   ["MOVDD", "RISTI", "CEDES"],
+      "airlines":  [
+        ["ual", 5],
+        ["ual/long", 2],
+        ["swa", 1],
+        ["dal", 5],
+        ["dal/long", 2],
+        ["aal", 5],
+        ["aal/long", 2],
+        ["asa", 1],
+        ["fdx", 1]
+      ],
+      "type": "wave",
+      "offset": 0,
+      "frequency": 12,
+      "altitude":  10000
+    },
+	{
+      "radial":   315,
+      "speed":    250,
+      "fixes":    ["PYE", "DUXBY", "SFO"],
+      "airlines":  [
+        ["ual/long", 5],
+        ["aal/long", 2],
+        ["dal/long", 2],
+        ["ual", 5],
+        ["baw/long", 2],
+        ["cpa", 2],
+        ["vir", 2],
+        ["swa", 2],
+        ["aca", 2],
+        ["ups", 1],
+        ["asa", 8],
+        ["fdx", 1],
+        ["klm/long", 2],
+        ["afr/long", 2],
+        ["uae", 4],
+        ["kal/long", 2],
+        ["fastga", 1]
+      ],
+      "type": "cyclic",
+      "frequency": 6,
+      "altitude":  10000
+    },
+	{
       "radial":   145,
       "speed":    250,
       "fixes":    ["SERFR","NRRLI","WWAVS","EPICK","NARWL","EDDYY"],

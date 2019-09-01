@@ -301,7 +301,7 @@
 		"SYRAH": ["COSMC", "SYRAH"],
         "GRTFL": ["GRTFL"]
       },
-      "draw": [["TYDYE", "TRUKN"], ["TRUKN","GRTFL*"], ["TRUKN","GRTFL*"], ["TRUKN","HYPEE","ORRCA*"], ["TRUKN","HYPEE","MOGEE*"], ["TRUKN","COSMC","TIPRE*"], ["TRUKN","COSMC","SYRAH*"]]
+      "draw": [["TYDYE", "TRUKN"], ["TRUKN","GRTFL*"], ["TRUKN","HYPEE","MOGEE*"], ["TRUKN","COSMC","TIPRE*"], ["TRUKN","COSMC","SYRAH*"]]
     },
 	"SNTNA2": {
       "icao": "SNTNA2",

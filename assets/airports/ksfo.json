@@ -309,7 +309,7 @@
         "MSCAT": [["MSCAT", "A240+|S280"], ["BGGLO", "A190+|S280"]],
         "GEEHH": [["GEEHH", "A240+|S280"], ["BGGLO", "A190+|S280"]]
       },
-      "body": [["LOZIT", "A160-|S280"], ["BDEGA", "A130-"], ["CORKK", "A110|S250"], "BRIXX","#140"],
+      "body": [["LOZIT", "A160-|S280"], ["BDEGA", "A130-"], ["CORKK", "A110-|S250"], "BRIXX","#140"],
       "draw": [["DEEAN*","LOZIT"], ["QUINN*","BGGLO","LOZIT"], ["JONNE*","BGGLO","LOZIT"], ["MSCAT*","BGGLO","LOZIT"], ["GEEHH*","BGGLO","LOZIT"], ["LOZIT","BDEGA","CORKK","BRIXX"]]
     },
     "BSR2": {
@@ -327,7 +327,7 @@
       "transitions": {
         "DYAMD": [["DYAMD", "A270+"]]
       },
-      "body": [["LAANE", "A260-|S280"], "ALWYS", ["FLOWZ", "A190-|S280"], ["CEDES", "A120-|S250"], ["FRELY", "A80|S240"], ["ARCHI", "A70|S230"]],
+      "body": [["LAANE", "A260-|S280"], "ALWYS", ["FLOWZ", "A190-|S280"], ["CEDES", "A120-|S250"], ["FRELY", "A80-|S240"], ["ARCHI", "A70-|S230"]],
       "draw": [["DYAMD*","LAANE","ALWYS","FLOWZ","CEDES","FRELY","ARCHI"]]
     },
 	"PIRAT2": {
@@ -346,7 +346,7 @@
       "transitions": {
         "SERFR": ["SERFR"]
       },
-      "body": ["SERFR", ["NRRLI", "A200-|S280"], ["WWAVS", "A190|S280"], ["EPICK", "A150|S280"],["NARWL", "A80|S240"],["EDDYY", "60|S220"]],
+      "body": ["SERFR", ["NRRLI", "A200-|S280"], ["WWAVS", "A190-|S280"], ["EPICK", "A150-|S280"],["NARWL", "A80-|S240"],["EDDYY", "A60-|S220"]],
       "draw": [["SERFR*","NRRLI","WWAVS","EPICK","NARWL","EDDYY"]]
     },
     "YOSEM3": {
@@ -391,7 +391,7 @@
   "arrivals": [
 	{
       "type": "random",
-      "route":   "SERFR.SERFR3.KSFO",
+      "route":   "DEEAN.BDEGA2.KSFO",
       "frequency": 10,
       "altitude":  20000,
       "speed":    280,

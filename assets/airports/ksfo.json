@@ -278,10 +278,10 @@
       "icao": "SSTIK4",
       "name": "Stick Four",
       "rwy": {
-        "1L" : [["SSTIK", "A19+"], "SENZY", ["PORTE", "A100-"]],
-        "1R" : [["SSTIK", "A19+"], "SENZY", ["PORTE", "A100-"]]
+        "1L" : [["SSTIK", "A19+"]],
+        "1R" : [["SSTIK", "A19+"]]
       },
-      "body": [],
+      "body": ["SENZY", ["PORTE", "A100-"]],
       "transitions": {
           "YYUNG": ["FFOIL","LIBBO","YYUNG"],
           "CISKO": ["KTINA", "CISKO"],

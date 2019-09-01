@@ -400,9 +400,9 @@
         ["asa", 2],
         ["swa", 5]
       ],
-      "type": "wave",
-      "offset": 3,
-      "frequency": 8,
+      "type": "random",
+      "offset": 0,
+      "frequency": 20,
       "altitude":  10000
     }
   ]

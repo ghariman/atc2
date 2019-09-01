@@ -475,6 +475,23 @@
       },
       "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
     },
+	"SSTIK4": {
+      "icao": "SSTIK4",
+      "name": "Stick Four",
+      "rwy": {
+        "1L" : [["SSTIK", "A19+"], ["PORTE", "A100-"]],
+        "1R" : [["SSTIK", "A19+"], ["PORTE", "A100-"]]
+      },
+      "body": [],
+      "transitions": {
+          "YYUNG": ["FFOIL","LIBBO","YYUNG"],
+          "CISKO": ["KTINA", "CISKO"],
+          "EBAYE": ["SUSEY", "EBAYE"],
+		  "LOSHN": ["KAYEX", "LOSHN"],
+          "NTELL": ["UTOOB", "NTELL"]
+      },
+      "draw": [["PORTE","FFOIL","LIBBO","YYUNG*"], ["PORTE","KTINA", "CISKO*"], ["PORTE","SUSEY", "EBAYE*"], ["PORTE","KAYEX", "LOSHN*"], ["PORTE","UTOOB", "NTELL*"]]
+	 },
     "TRUKN2": {
       "icao": "TRUKN2",
       "name": "Truckin Two",

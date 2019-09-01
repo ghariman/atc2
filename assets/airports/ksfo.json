@@ -404,6 +404,22 @@
       "offset": 0,
       "frequency": 20,
       "altitude":  10000
+    },
+	{
+      "radial":   248,
+      "speed":    250,
+      "fixes":    ["DYAMD","LAANE","ALWYS","FLOWZ","CEDES","FRELY","ARCHI"],
+      "airlines":  [
+        ["ual", 4],
+        ["aal", 3],
+        ["dal", 2],
+        ["asa", 2],
+        ["swa", 5]
+      ],
+      "type": "random",
+      "offset": 0,
+      "frequency": 20,
+      "altitude":  10000
     }
   ]
 }

@@ -261,7 +261,9 @@
       "name": "Offshore Nine",
       "rwy": {
         "1L" : [["SEPDY", "A16+"], "BRINY"],
-        "1R" : [["SEPDY", "A16+"], "BRINY"]
+        "1R" : [["SEPDY", "A16+"], "BRINY"],
+        "28L": [["SENZY", "A25+"], "WAMMY"],
+        "28R": [["SENZY", "A25+"], "WAMMY"]
       },
       "body": [["SEGUL", "A160+"], ["CYPRS", "A220+"], "MCKEY"],
       "transitions": {

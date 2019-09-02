@@ -243,6 +243,19 @@
         "EBAYE": ["VLREE", "EBAYE"]
       },
       "draw": [["SPTNS","TECKY"],["TECKY", "JFREE", "LOSHN*"],["TECKY", "VLREE", "EBAYE*"]]
+    },
+	"LOUPE5": {
+      "icao": "LOUPE5",
+      "name": "Loop Five",
+      "rwy": {
+        "30L" : [["MLPTS", "A16+"]],
+        "30R" : [["MLPTS", "A16+"]]
+      },
+      "body": [["BLNCH", "A50-"], ["FORUL", "A50-"]],
+      "transitions": {
+        "HRNER": ["BMRNG", "HRNER"]
+      },
+      "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }
   },
   "stars": {

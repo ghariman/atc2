@@ -397,13 +397,15 @@
       "speed":    280,
       "airlines":  [
         ["ual", 5],
-        ["ual/long", 2],
         ["swa", 1],
         ["dal", 5],
         ["dal/long", 2],
         ["aal", 5],
         ["aal/long", 2],
-        ["asa", 1],
+        ["asa", 10],
+		["afr/long", 2],
+		["aca", 2],
+		["baw/long", 2],
         ["fdx", 1]
       ]
     },
@@ -414,15 +416,17 @@
       "altitude":  20000,
       "speed":    280,
       "airlines":  [
-        ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
-        ["dal", 5],
+        ["ual/long", 5],
+        ["swa", 5],
         ["dal/long", 2],
-        ["aal", 5],
         ["aal/long", 2],
-        ["asa", 1],
-        ["fdx", 1]
+        ["asa", 5],
+		["cpa", 5],
+		["ups", 1],
+		["jal/long", 5],
+		["ana/long", 5],
+		["eva/long", 5],
+        ["hal/long", 10]
       ]
     },
 	{
@@ -433,13 +437,13 @@
       "speed":    280,
       "airlines":  [
         ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
+        ["swa", 10],
         ["dal", 5],
-        ["dal/long", 2],
+        ["dal/long", 5],
         ["aal", 5],
-        ["aal/long", 2],
-        ["asa", 1],
+        ["aal/long", 5],
+        ["asa", 10],
+		["ups", 1],
         ["fdx", 1]
       ]
     },
@@ -450,14 +454,15 @@
       "altitude":  27000,
       "speed":    280,
       "airlines":  [
-        ["ual", 5],
-        ["ual/long", 2],
-        ["swa", 1],
+        ["ual", 10],
+        ["swa", 10],
         ["dal", 5],
         ["dal/long", 2],
         ["aal", 5],
         ["aal/long", 2],
-        ["asa", 1],
+        ["jbu", 10],
+		["ups", 1],
+		["asa", 10],
         ["fdx", 1]
       ]
     }

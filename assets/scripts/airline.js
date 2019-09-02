@@ -137,6 +137,7 @@ function airline_init() {
   airline_load("AFR");
   airline_load("AIRTAXI");
   airline_load("AMX");
+  airline_load("ANA");
   airline_load("ARG");
   airline_load("ASA");
   airline_load("ASQ");

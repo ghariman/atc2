@@ -241,7 +241,7 @@
         "LOSHN": ["JFREE", "LOSHN"],
         "EBAYE": ["VLREE", "EBAYE"]
       },
-      "draw": [["SPTNS","TECKY"],["TECKY", "JFREE", "LOSHN*"],["TECKY", "VLREE", "EBAYE*"]
+      "draw": [["SPTNS","TECKY"],["TECKY", "JFREE", "LOSHN*"],["TECKY", "VLREE", "EBAYE*"]]
     }
   },
   "stars": {

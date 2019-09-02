@@ -203,6 +203,7 @@
 	"SPTNS": ["N37d19m39.71", "W121d47m12.91"],
 	"SUNNE": ["N37d26.29", "W122d0.77"],
 	"VLREE": ["N36d36.59", "W121d0.41"],
+	"YADUT": ["N37d12.24", "W122d1.40"],
 	"ZINNN": ["N38d3.74", "W122d31.32"],
 	"ZULUP": ["N37d12.34", "W121d45.50"]
   },
@@ -313,18 +314,14 @@
     }
   },
   "stars": {
-    "BDEGA2": {
-      "icao": "BDEGA2",
-      "name": "Bidayga Two",
+    "BRIXX2": {
+      "icao": "BRIXX2",
+      "name": "Bricks Two",
       "transitions": {
-        "DEEAN": [["DEEAN", "A240+|S280"]],
-        "QUINN": [["QUINN", "A240+|S280"], ["BGGLO", "A190+|S280"]],
-        "JONNE": [["JONNE", "A240+|S280"], ["BGGLO", "A190+|S280"]],
-        "MSCAT": [["MSCAT", "A240+|S280"], ["BGGLO", "A190+|S280"]],
-        "GEEHH": [["GEEHH", "A240+|S280"], ["BGGLO", "A190+|S280"]]
+        "DEEAN": [["CHBLI", "A280+|S280"]]
       },
-      "body": [["LOZIT", "A160-|S280"], ["BDEGA", "A130-|S280"], ["CORKK", "A110-|S250"], "BRIXX"],
-      "draw": [["DEEAN*","LOZIT"], ["QUINN*","BGGLO","LOZIT"], ["JONNE*","BGGLO","LOZIT"], ["MSCAT*","BGGLO","LOZIT"], ["GEEHH*","BGGLO","LOZIT"], ["LOZIT","BDEGA","CORKK","BRIXX"]]
+      "body": [["GRIJO", "A220-|S280"], "ZINNN", ["CORKK", "A140-|S250"], ["CORKK", "A120-|S250"],["LUYTA", "A100-|S250"],["JILNA", "A70-|S250"],"YADUT"],
+      "draw": []
     },
     "BSR2": {
       "icao": "BSR2",

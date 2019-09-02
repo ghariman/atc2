@@ -253,7 +253,7 @@
       },
       "body": [],
       "transitions": {
-        "FORUL": ["FORUL"]
+        "SJC": ["FORUL","SJC"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

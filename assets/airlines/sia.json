@@ -1,0 +1,18 @@
+{
+  "icao": "SIA",
+  "name": "Singapore Air",
+  "callsign": {
+    "name": "SINGAPORE",
+    "length": 3,
+    "alpha": false
+  },
+  "fleets": {
+    "default": [
+      ["B773", 50]
+    ],
+    "long": [
+      ["B77W", 50],
+      ["A388", 23]
+    ]
+  }
+}

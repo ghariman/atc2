@@ -248,12 +248,12 @@
       "icao": "LOUPE5",
       "name": "Loop Five",
       "rwy": {
-        "30L" : [["MLPTS", "A16+"],["BLNCH", "A50-"], ["FORUL", "A50-"]],
-        "30R" : [["MLPTS", "A16+"],["BLNCH", "A50-"], ["FORUL", "A50-"]]
+        "30L" : [["MLPTS", "A16+"],["BLNCH", "A50-"]],
+        "30R" : [["MLPTS", "A16+"],["BLNCH", "A50-"]]
       },
       "body": [],
       "transitions": {
-        "HRNER": ["BMRNG", "HRNER"]
+        "FORUL": ["FORUL"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

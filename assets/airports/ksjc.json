@@ -255,7 +255,7 @@
       },
       "body": [],
       "transitions": {
-        "OOMEN": ["FORUL","SJC","OOMEN"]
+        "MLPTS": ["FORUL","SJC","MLPTS"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

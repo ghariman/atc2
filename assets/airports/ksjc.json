@@ -204,6 +204,7 @@
 	"SPTNS": ["N37d19m39.71", "W121d47m12.91"],
 	"SUNNE": ["N37d26.29", "W122d0.77"],
 	"VLREE": ["N36d36.59", "W121d0.41"],
+	"WETOR": ["N37.484719", "W122.057142"],
 	"YADUT": ["N37d12.24", "W122d1.40"],
 	"ZINNN": ["N38d3.74", "W122d31.32"],
 	"ZULUP": ["N37d12.34", "W121d45.50"]
@@ -253,7 +254,7 @@
       },
       "body": [],
       "transitions": {
-        "ZILED": ["FORUL","SJC","ZILED"]
+        "WETOR": ["FORUL","SJC","ZILED","WETOR"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

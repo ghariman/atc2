@@ -183,6 +183,7 @@
 	"YYUNG": ["N35d30.96", "W121d04.12"],
 	"ZILED": ["N37d29.74", "W121d57.49"],
 	
+	"_LOUPEFIX": ["N37d26.75", "W121d58.41"],
 	"ARTAQ": ["N37d27.80", "W122d2.42"],
 	"BLNCH": ["N37d23.75", "W121d50.31"],
 	"BMRNG": ["N37d37m1.130", "W121d57m56.90"],
@@ -255,7 +256,7 @@
       },
       "body": [],
       "transitions": {
-        "MLPTS": ["FORUL","SJC","MLPTS"]
+        "_LOUPEFIX": ["FORUL","SJC","MLPTS","_LOUPEFIX"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

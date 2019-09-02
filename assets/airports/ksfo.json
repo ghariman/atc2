@@ -380,6 +380,11 @@
       ["afr/long", 2],
       ["uae", 4],
       ["kal/long", 2],
+	  ["jal/long", 5],
+	  ["ana/long", 5],
+	  ["eva/long", 5],
+	  ["sia/long", 5],
+	  ["jbu", 4],
       ["vir", 2]
     ],
     "destinations": [
@@ -420,22 +425,14 @@
     },
 	{
       "type": "random",
-      "route":   "PAINT.PIRAT2.KSFO",
+      "route":   "CINNY.PIRAT2.KSFO",
       "frequency": 5,
       "altitude":  20000,
       "speed":    280,
       "airlines":  [
-        ["ual/long", 5],
-        ["swa", 5],
-        ["dal/long", 2],
-        ["aal/long", 2],
-        ["asa", 5],
-		["cpa", 5],
+        ["ual/long", 10],
+        ["asa", 10],
 		["ups", 1],
-		["jal/long", 5],
-		["ana/long", 5],
-		["eva/long", 5],
-		["sia/long", 5],
 		["fdx", 1],
         ["hal/long", 10]
       ]

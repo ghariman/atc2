@@ -253,7 +253,7 @@
       },
       "body": [],
       "transitions": {
-        "SJC": ["FORUL","SJC"]
+        "ZILED": ["FORUL","SJC","ZILED"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

@@ -229,23 +229,19 @@
     }
   ],
   "sids": {
-    "OFFSH9": {
-      "icao": "OFFSH9",
-      "name": "Offshore Nine",
+    "TECKY3": {
+      "icao": "TECKY3",
+      "name": "Techie Three",
       "rwy": {
-        "1L" : [["SEPDY", "A16+"], "BRINY"],
-        "1R" : [["SEPDY", "A16+"], "BRINY"],
-        "28L": [["SENZY", "A25+"], "WAMMY"],
-        "28R": [["SENZY", "A25+"], "WAMMY"]
+        "30L" : [["MLPTS", "A16+"]],
+        "30R" : [["MLPTS", "A16+"]]
       },
-      "body": [["SEGUL", "A160+"], ["CYPRS", "A220+"], "MCKEY"],
+      "body": [["SPTNS", "A50-"], ["TECKY", "A130-"]],
       "transitions": {
-        "FLW": ["MQO", "FLW"],
-        "RZS": ["MQO", "RZS"],
-        "GVO": ["MQO", "GVO"],
-        "SXC": ["DAISY", "BENET", "SXC"]
+        "LOSHN": ["JFREE", "LOSHN"],
+        "VLREE": ["VLREE", "EBAYE"]
       },
-      "draw": [["SEPDY","WAMMY"], ["SENZY","WAMMY","SEGUL","CYPRS","MCKEY"], ["MCKEY","MQO"], ["MQO","FLW*"], ["MQO","RZS*"], ["MQO","GVO*"], ["MCKEY","DAISY","BENET","SXC*"]]
+      "draw": [["SPTNS","TECKY"],["TECKY", "JFREE", "LOSHN*"],["TECKY", "VLREE", "EBAYE*"]
     }
   },
   "stars": {
@@ -288,7 +284,7 @@
       ["vir", 2]
     ],
     "destinations": [
-      "OFFSH9", "GNNRR2", "SNTNA2", "TRUKN2", "SSTIK4"
+      "TECKY3"
     ],
     "type": "random",
     "offset": 0,

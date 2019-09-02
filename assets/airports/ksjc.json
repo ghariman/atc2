@@ -239,7 +239,7 @@
       "body": [["SPTNS", "A50-"], ["TECKY", "A130-"]],
       "transitions": {
         "LOSHN": ["JFREE", "LOSHN"],
-        "VLREE": ["VLREE", "EBAYE"]
+        "EBAYE": ["VLREE", "EBAYE"]
       },
       "draw": [["SPTNS","TECKY"],["TECKY", "JFREE", "LOSHN*"],["TECKY", "VLREE", "EBAYE*"]
     }

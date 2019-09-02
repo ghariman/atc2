@@ -121,6 +121,7 @@
 	"NRRLI": ["N36d29m44", "W121d41m57"],
 	"NTELL": ["N36d53.98", "W119d53.37"],
 	"OLYMM": ["N37d42.96", "W122d40.36"],
+	"OOMEN": ["N37d28.61", "W121d56.01"],
 	"ORRCA": ["N38d26m37", "W121d33m5"],
     "OSI"  : ["N37.3925", "W122.28133333"],
 	"PAINT": ["N38d00.00", "W125d30.00"],
@@ -254,7 +255,7 @@
       },
       "body": [],
       "transitions": {
-        "WETOR": ["FORUL","SJC","ZILED","WETOR"]
+        "OOMEN": ["FORUL","SJC","OOMEN"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

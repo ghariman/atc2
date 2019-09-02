@@ -284,31 +284,20 @@
       ["cpa", 2],
       ["baw/long", 2],
       ["ups", 1],
-      ["fdx", 1],
-      ["klm/long", 2],
-	  ["dlh/long", 2],
-      ["afr/long", 2],
-      ["uae", 4],
-      ["kal/long", 2],
-	  ["jal/long", 5],
-	  ["ana/long", 5],
-	  ["eva/long", 5],
-	  ["sia/long", 5],
-	  ["jbu", 4],
-      ["vir", 2]
+      ["fdx", 1]
     ],
     "destinations": [
-      "LOUPE5"
+      "LOUPE5", "TECKY3"
     ],
     "type": "random",
     "offset": 0,
-    "frequency": 10
+    "frequency": 5
   },
   "arrivals": [
 	{
       "type": "random",
       "route":   "CHBLI.BRIXX2.KSJC",
-      "frequency": 5,
+      "frequency": 10,
       "altitude":  20000,
       "speed":    280,
       "airlines":  [

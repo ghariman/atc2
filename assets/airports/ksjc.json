@@ -318,7 +318,7 @@
       "icao": "BRIXX2",
       "name": "Bricks Two",
       "transitions": {
-        "DEEAN": [["CHBLI", "A280+|S280"]]
+        "CHBLI": [["CHBLI", "A280+|S280"]]
       },
       "body": [["GRIJO", "A220-|S280"], "ZINNN", ["CORKK", "A140-|S250"], ["CORKK", "A120-|S250"],["LUYTA", "A100-|S250"],["JILNA", "A70-|S250"],"YADUT"],
       "draw": []
@@ -408,7 +408,7 @@
   "arrivals": [
 	{
       "type": "random",
-      "route":   "DEEAN.BDEGA2.KSFO",
+      "route":   "CHBLI.BRIXX2.KSJC",
       "frequency": 5,
       "altitude":  20000,
       "speed":    280,
@@ -430,59 +430,6 @@
 		["uae", 4],
 		["vir", 2],
 		["cpa", 5],
-		["ups", 1],
-        ["fdx", 1]
-      ]
-    },
-	{
-      "type": "random",
-      "route":   "CINNY.PIRAT2.KSFO",
-      "frequency": 5,
-      "altitude":  20000,
-      "speed":    280,
-      "airlines":  [
-        ["ual/long", 10],
-        ["asa", 10],
-		["ups", 1],
-		["fdx", 1],
-        ["hal/long", 10]
-      ]
-    },
-	{
-      "type": "random",
-      "route":   "SERFR.SERFR3.KSFO",
-      "frequency": 10,
-      "altitude":  20000,
-      "speed":    280,
-      "airlines":  [
-        ["ual", 25],
-        ["swa", 10],
-        ["dal", 5],
-        ["dal/long", 5],
-        ["aal", 10],
-        ["aal/long", 10],
-        ["asa", 10],
-		["ups", 1],
-		["jbu", 10],
-        ["fdx", 1]
-      ]
-    },
-	{
-      "type": "random",
-      "route":   "DYAMD.DYAMD2.KSFO",
-      "frequency": 10,
-      "altitude":  27000,
-      "speed":    280,
-      "airlines":  [
-        ["ual", 10],
-        ["swa", 10],
-        ["dal", 5],
-        ["dal/long", 2],
-        ["aal", 5],
-        ["aal/long", 2],
-        ["jbu", 30],
-		["ups", 1],
-		["asa", 10],
 		["ups", 1],
         ["fdx", 1]
       ]

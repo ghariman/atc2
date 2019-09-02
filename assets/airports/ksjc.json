@@ -251,7 +251,7 @@
         "30L" : [["MLPTS", "A16+"]],
         "30R" : [["MLPTS", "A16+"]]
       },
-      "body": [["BLNCH", "A50-"], ["FORUL", "A50-"]],
+      "body": [["BLNCH", "A50-"], ["SPTNS", "A50-"]],
       "transitions": {
         "HRNER": ["BMRNG", "HRNER"]
       },

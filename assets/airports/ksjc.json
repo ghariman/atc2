@@ -369,7 +369,7 @@
         ["fdx", 1]
       ]
     },
-	{
+    {
       "type": "random",
       "route":   "RAZRR.RAZRR4.KSJC",
       "frequency": 2,
@@ -393,7 +393,7 @@
       "speed":    280,
       "airlines":  [
         ["ual", 10],
-        ["swa", 50,
+        ["swa", 50],
         ["aal", 2],
         ["asa", 50],
 		["ups", 1],

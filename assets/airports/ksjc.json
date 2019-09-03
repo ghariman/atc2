@@ -296,7 +296,7 @@
       "icao": "SILCN4",
       "name": "Silicon Valley Four",
       "transitions": {
-        "RAZRR": [["SILCN", "A200-|S280"]]
+        "SILCN": [["SILCN", "A200-|S280"]]
       },
       "body": [["VLLEY", "A190-|S280"], ["GUUYY", "A110-|S250"], ["WLSSN", "A80-|S250"],["GSTEE", "A42-|S250"],["KLIDE", "A40-|S230"],"ZULUP"],
       "draw": []

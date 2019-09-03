@@ -305,6 +305,24 @@
       },
       "body": [["GRIJO", "A220-|S280"], "ZINNN", ["CORKK", "A140-|S250"], ["CORKK", "A120-|S250"],["LUYTA", "A100-|S250"],["JILNA", "A70-|S250"],"YADUT"],
       "draw": []
+    },
+    "RAZRR4": {
+      "icao": "RAZRR4",
+      "name": "Razor Four",
+      "transitions": {
+        "RAZRR": [["CHBLI", "A220-|S280"]]
+      },
+      "body": [["OUCHH", "A190-|S280"], ["NIKKT", "A140-|S250"], ["SEKKO", "A80-|S250"],["SCOPR", "A50-|S250"],["KLIDE", "A40-|S230"],"ZULUP"],
+      "draw": []
+    },
+	"SILCN4": {
+      "icao": "SILCN4",
+      "name": "Silicon Valley Four",
+      "transitions": {
+        "RAZRR": [["SILCN", "A200-|S280"]]
+      },
+      "body": [["VLLEY", "A190-|S280"], ["GUUYY", "A110-|S250"], ["WLSSN", "A80-|S250"],["GSTEE", "A42-|S250"],["KLIDE", "A40-|S230"],"ZULUP"],
+      "draw": []
     }
   },
   "departures":
@@ -329,7 +347,7 @@
     ],
     "type": "random",
     "offset": 0,
-    "frequency": 5
+    "frequency": 10
   },
   "arrivals": [
 	{
@@ -344,18 +362,40 @@
         ["dal/long", 2],
         ["aal/long", 2],
         ["asa", 10],
-		["afr/long", 2],
 		["aca", 2],
-		["klm/long", 2],
-		["dlh/long", 2],
 		["baw/long", 2],
-		["sia/long", 5],
-		["jal/long", 5],
 		["ana/long", 5],
-		["eva/long", 5],
-		["uae", 4],
-		["vir", 2],
-		["cpa", 5],
+		["ups", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "RAZRR.RAZRR4.KSJC",
+      "frequency": 2,
+      "altitude":  20000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 10],
+        ["swa", 5],
+        ["dal/long", 2],
+        ["aal/long", 2],
+        ["asa", 10],
+		["ups", 1],
+        ["fdx", 1]
+      ]
+    },
+	{
+      "type": "random",
+      "route":   "SILCN.SILCN4.KSJC",
+      "frequency": 10,
+      "altitude":  20000,
+      "speed":    280,
+      "airlines":  [
+        ["ual", 10],
+        ["swa", 50,
+        ["aal", 2],
+        ["asa", 50],
 		["ups", 1],
         ["fdx", 1]
       ]

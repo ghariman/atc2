@@ -318,6 +318,15 @@
       },
       "body": [["VLLEY", "A190-|S280"], ["GUUYY", "A110-|S250"], ["WLSSN", "A80-|S250"],["GSTEE", "A42-|S250"],["KLIDE", "A40-|S230"],"ZULUP"],
       "draw": []
+    },
+	"HAWAII2": {
+      "icao": "HAWAII2",
+      "name": "Hawaii Two",
+      "transitions": {
+        "CINNY": [["CINNY", "A200-|S280"]]
+      },
+      "body": [["TPCAT", "A110-|S2500-|S280"], ["HEPAP", "A60-|S250"]],
+      "draw": []
     }
   },
   "departures":
@@ -345,20 +354,16 @@
   },
   "arrivals": [
    {
-      "_name": "HAWAII",
-      "radial": 045,
-      "speed": 280,
       "type": "random",
-      "offset": 12,
-      "period": 23,
-      "frequency": [10, 15],
-      "altitude": 20000,
-      "fixes": ["CINNY","TPCAT","CINNY"],
-      "airlines": [
+      "route":   "CINNY.HAWAII2.KSJC",
+      "frequency": 10,
+      "altitude":  20000,
+      "speed":    280,
+      "airlines":  [
         ["ual", 10],
+        ["swa", 5],
 		["asa", 10],
-		["swa", 10],
-		["hal/long", 10]
+        ["hal/long", 2]
       ]
     },
 	{

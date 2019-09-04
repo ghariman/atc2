@@ -356,13 +356,13 @@
    {
       "type": "random",
       "route":   "CINNY.HAWAII2.KSJC",
-      "frequency": 10,
+      "frequency": 3,
       "altitude":  20000,
       "speed":    280,
       "airlines":  [
-        ["ual", 10],
+        ["ual", 2],
         ["swa", 5],
-		["asa", 10],
+		["asa", 5],
         ["hal/long", 2]
       ]
     },

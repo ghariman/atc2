@@ -344,6 +344,23 @@
     "frequency": 10
   },
   "arrivals": [
+   {
+      "_name": "HAWAII",
+      "radial": 110,
+      "speed": 280,
+      "type": "random",
+      "offset": 12,
+      "period": 23,
+      "frequency": [10, 15],
+      "altitude": 20000,
+      "fixes": ["CINNY","TPCAT","CINNY"],
+      "airlines": [
+        ["ual", 10],
+		["asa", 10],
+		["swa", 10],
+		["hal/long", 10]
+      ]
+    },
 	{
       "type": "random",
       "route":   "CHBLI.BRIXX2.KSJC",

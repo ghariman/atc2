@@ -346,7 +346,7 @@
   "arrivals": [
    {
       "_name": "HAWAII",
-      "radial": 110,
+      "radial": 045,
       "speed": 280,
       "type": "random",
       "offset": 12,

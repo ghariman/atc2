@@ -369,7 +369,7 @@
 	{
       "type": "random",
       "route":   "CHBLI.BRIXX2.KSJC",
-      "frequency": 10,
+      "frequency": 5,
       "altitude":  20000,
       "speed":    280,
       "airlines":  [

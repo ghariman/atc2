@@ -273,7 +273,8 @@
       "body": [["SPTNS", "A50-"], ["TECKY", "A130-"]],
       "transitions": {
         "LOSHN": ["JFREE", "LOSHN"],
-        "EBAYE": ["VLREE", "EBAYE"]
+        "EBAYE": ["VLREE", "EBAYE"],
+		"ALCOA": ["BRINY", "ALCOA"]
       },
       "draw": [["SPTNS","TECKY"],["TECKY", "JFREE", "LOSHN*"],["TECKY", "VLREE", "EBAYE*"]]
     },
@@ -286,7 +287,7 @@
       },
       "body": [],
       "transitions": {
-        "_LOUPEFIX": ["FORUL","SJC","MLPTS","_LOUPEFIX"]
+        "_LOUPEFIX": ["SPTNS", "HIVAK", "SJC","MLPTS","_LOUPEFIX"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }
@@ -374,7 +375,7 @@
       "speed":    280,
       "airlines":  [
         ["ual", 10],
-        ["swa", 5],
+        ["swa", 20],
         ["dal/long", 2],
         ["aal/long", 2],
         ["asa", 10],
@@ -393,7 +394,7 @@
       "speed":    280,
       "airlines":  [
         ["ual", 10],
-        ["swa", 5],
+        ["swa", 50],
         ["dal/long", 2],
         ["aal/long", 2],
         ["asa", 10],

@@ -296,9 +296,9 @@
       "icao": "BRIXX2",
       "name": "Bricks Two",
       "transitions": {
-        "CHBLI": [["CHBLI", "A280+|S280"]]
+        "CHBLI": [["CHBLI", "A280+|S280"],["GRIJO", "A220-|S280"]]
       },
-      "body": [["GRIJO", "A220-|S280"], "ZINNN", ["CORKK", "A140-|S250"], ["CORKK", "A120-|S250"],["LUYTA", "A100-|S250"],["JILNA", "A70-|S250"],"YADUT"],
+      "body": ["ZINNN", ["CORKK", "A140-|S250"], ["CORKK", "A120-|S250"],["LUYTA", "A100-|S250"],["JILNA", "A70-|S250"],"YADUT"],
       "draw": []
     },
     "RAZRR4": {

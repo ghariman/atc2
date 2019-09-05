@@ -13,14 +13,29 @@
   "ctr_ceiling": 23000,
   "initial_alt": 5000,
   "position": ["N37.3627", "W121.929"],
-  "rr_radius_nm": 10.0,
+  "rr_radius_nm": 5.0,
   "rr_center": ["N37.3627", "W121.929"],
   "has_terrain": true,
   "wind": {
     "angle": 310,
     "speed": 5
   },
-
+  "airspace": [
+        {
+            "floor": 0,
+            "ceiling": 100,
+            "airspace_class": "C",
+            "poly": [
+                ["N37d27.15", "W122d6.17"],
+				["N37d31.11", "W121d59.86"],
+				["N37d28.40", "W121d58.57"],
+				["N37d28.63", "W121d54.72"],
+				["N37d7.77", "W121d24.05"],
+				["N36d54.22", "W121d50.58"],
+				["N37d6.08", "W121d58.65"]
+            ]
+        }
+    ],
   "fixes": {
     "_FAITH085033": ["N37d19.07m0", "W121d10.80m0"],
     "_MOVDD038018": ["N37d50.88m0", "W121d09.11m0"],
@@ -290,7 +305,7 @@
       "icao": "RAZRR4",
       "name": "Razor Four",
       "transitions": {
-        "RAZRR": [["CHBLI", "A220-|S280"]]
+        "RAZRR": [["RAZRR", "A220-|S280"]]
       },
       "body": [["OUCHH", "A190-|S280"], ["NIKKT", "A140-|S250"], ["SEKKO", "A80-|S250"],["SCOPR", "A50-|S250"],["KLIDE", "A40-|S230"],"ZULUP"],
       "draw": []

@@ -287,7 +287,7 @@
       },
       "body": [],
       "transitions": {
-        "_LOUPEFIX": ["SPTNS", "HIVAK", "SJC","MLPTS","_LOUPEFIX"]
+        "_LOUPEFIX": ["FORUL", "SJC","MLPTS","_LOUPEFIX"]
       },
       "draw": [["BLNCH","FORUL"],["FORUL", "BMRNG", "HRNER*"]]
     }

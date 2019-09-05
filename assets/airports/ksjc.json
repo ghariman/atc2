@@ -389,7 +389,7 @@
     {
       "type": "random",
       "route":   "RAZRR.RAZRR4.KSJC",
-      "frequency": 2,
+      "frequency": 5,
       "altitude":  20000,
       "speed":    280,
       "airlines":  [
